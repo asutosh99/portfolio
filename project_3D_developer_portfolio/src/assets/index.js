@@ -31,6 +31,8 @@ import nft_project from "./nft_project.png";
 import ICO_project from "./ico_project.png"
 import whiteList from './whiteList.png';
 import tripguide from "./tripguide.png";
+import DEX from './DEX.png';
+import mern from './mern.png'
 
 export {
   logo,
@@ -60,6 +62,8 @@ export {
   tesla,
   ICO_project,
   nft_project,
+  DEX,
+  mern,
   whiteList,
   tripguide,
 };

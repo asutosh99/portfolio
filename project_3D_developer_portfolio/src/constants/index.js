@@ -21,8 +21,9 @@ import {
   ICO_project,
   shopify,
   whiteList,
-  tripguide,
+  DEX,
   threejs,
+  mern
 } from "../assets";
 
 export const navLinks = [
@@ -248,8 +249,58 @@ const projects = [
     image: whiteList,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Decentralized Exchange",
+    description:
+      " Built an exchange with only one asset pair (Eth / Crypto Dev), take a fee of 1% on swaps When user adds liquidity, they are given Crypto Dev LP tokens (Liquidity Provider tokens)",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HardHat",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: DEX,
+    source_code_link: "https://github.com/asutosh99/Decentralized_Exchange",
+  },
+  {
+    name: "Social media WebApp",
+    description:
+      "it is MERN stack Application having CRUD operations in the post with user authentication ",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaSricpt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mern,
+    source_code_link: "  https://github.com/asutosh99/mernStackApplication/tree/master",
+  },
  
-  
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -6,6 +6,10 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+// require("dotenv").config({ path: ".env" });
+//service_09fv3tv
+//template_ykh77hr
+//fnhmBnG6DdgDOJiMj
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,16 +37,19 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_09fv3tv",
+        "template_ykh77hr",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Asutosh Mahapatro",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "asumanu99@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "fnhmBnG6DdgDOJiMj"
       )
       .then(
         () => {
